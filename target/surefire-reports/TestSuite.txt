@@ -1,0 +1,47 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 75.586 s <<< FAILURE! - in TestSuite
+createNewContactTest(com.qa.hubspot.tests.ContactsPageTest)  Time elapsed: 13.491 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.xpath: (//*[text()='Contacts'])[position()=1] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-9738CE5M', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\varun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53095}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 74b92ca1c66f56cb197fe4582d4164c2
+	at com.qa.hubspot.tests.ContactsPageTest.createNewContactTest(ContactsPageTest.java:45)
+
+createNewContactTest(com.qa.hubspot.tests.ContactsPageTest)  Time elapsed: 1.52 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <span>...</span> is not clickable at point (1398, 163). Other element would receive the click: <input aria-labelledby="UIFormControl-label-36" id="UIFormControl-33" data-field="firstname" data-selenium-test="property-input-firstname" type="text" autocomplete="off" class="form-control private-form__control" value="Sheena">
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-9738CE5M', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\varun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53095}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 74b92ca1c66f56cb197fe4582d4164c2
+	at com.qa.hubspot.tests.ContactsPageTest.createNewContactTest(ContactsPageTest.java:45)
+
+createNewContactTest(com.qa.hubspot.tests.ContactsPageTest)  Time elapsed: 1.481 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <span>...</span> is not clickable at point (1398, 163). Other element would receive the click: <input aria-labelledby="UIFormControl-label-36" id="UIFormControl-33" data-field="firstname" data-selenium-test="property-input-firstname" type="text" autocomplete="off" class="form-control private-form__control" value="Sheena">
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-9738CE5M', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\varun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53095}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 74b92ca1c66f56cb197fe4582d4164c2
+	at com.qa.hubspot.tests.ContactsPageTest.createNewContactTest(ContactsPageTest.java:45)
+
+createNewContactTest(com.qa.hubspot.tests.ContactsPageTest)  Time elapsed: 1.511 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <span>...</span> is not clickable at point (1398, 163). Other element would receive the click: <input aria-labelledby="UIFormControl-label-36" id="UIFormControl-33" data-field="firstname" data-selenium-test="property-input-firstname" type="text" autocomplete="off" class="form-control private-form__control" value="Sheena">
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-9738CE5M', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\varun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53095}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 74b92ca1c66f56cb197fe4582d4164c2
+	at com.qa.hubspot.tests.ContactsPageTest.createNewContactTest(ContactsPageTest.java:45)
+
