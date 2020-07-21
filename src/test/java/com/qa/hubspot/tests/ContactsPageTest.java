@@ -40,7 +40,7 @@ public class ContactsPageTest extends BaseTest {
 		Object data[][] = ExcelUtil.getTestData(Constants.CONTACTS_SHEET_NAME);
 		return data;
 	}
-	@Test(priority = 3, dataProvider = "getContactsTestData", enabled=true)
+	@Test(priority = 3, dataProvider = "getContactsTestData", enabled=false)
 	public void createNewContactTest(String emailid, String firstname, String lastname, String jobtitle) {
 		contactsPage.createContact(emailid, firstname, lastname, jobtitle);
 	}
