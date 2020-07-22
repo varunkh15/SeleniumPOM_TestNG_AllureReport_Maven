@@ -32,7 +32,7 @@ public class LoginPageTest extends BaseTest{
 		Assert.assertEquals(loginPage.isSignUpLinkExist(), true);
 	}
 
-	@Description("verify login page title login page...")
+	@Description("verify Logintest page title login page...")
 	@Severity(SeverityLevel.NORMAL)
 	@Test(priority=2)
 	public void verifyLoginPageTitleTest() {
